@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#emtymainscreen{
+width: 100%;
+max-width: 1366px;
+/*padding-left: 0.8333%;*/
+/*padding-right: 0.8333%;*/
+margin:0 auto;
+}
+#mainscreen{
+
+}
+
+
+#hammenu li{
+	list-style-type: none;
+	color: green;
+}
+#hammenu #submenu ul li a {
+	color: Black;
+	font-family: 'Montserrat', sans-serif;
+}
+#hammenu #submenu ul li a:hover{
+	color: #5E64FE;
+	font-weight: 500;
+}
+#hammenu a{
+	text-decoration: none;
+}
+#menuname li {
+		
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+#menuname li a{
+	text-decoration: none;
+	
+	color: #2E2E2E;
+	
+	
+}
+#menuname #login .button{
+	color: white;
+}
+#menuname #login{
+	background-color: #5E64FE;
+	line-height: 35px;
+	
+}
+
+#hed1 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+#hed2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+#download p{
+	
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+#applestore:hover{
+	width: 17%;
+	overflow:hidden;
+}
+#playstorehover:hover{
+	width: 17%;
+/*	overflow:auto;*/
+	overflow:hidden;
+}
+#q1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	
+}
+#ans1{
+	
+	font-family: 'Roboto', sans-serif;
+	text-align: inherit;
+	font-weight: 400;
+	color: #363839;
+}
+#bascon1 a{
+	
+	background: #5E64FE;
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+
+}
+#bascon2 a{
+	background: #5E64FE;
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+#q2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	
+	
+}
+#ans2{
+	
+	font-family: 'Roboto', sans-serif;
+	text-align: inherit; 
+	
+	color: #363839;
+}
+
+.heading{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+#feahed{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+#feacon{
+	font-family: 'Roboto', sans-serif;
+	color: #7A7A7A;
+}
+#devicont{
+font-family: 'Roboto', sans-serif;
+	color: #7A7A7A;
+	font-weight: 400;
+}
+#deviceconten a{
+	color: #5E64FE;
+	text-decoration: none;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	
+}
+#youtube{
+	
+}
+#ythead{
+	font-family: 'Montserrat', sans-serif;
+}
+.ytcont{
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	color: #7A7A7A;
+}
+#ythead span{
+	color: #5E64FE;
+	font-weight: 700;
+}
+#morerev{
+font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#command1{
+	border: 2px solid #7B7B7B;
+}
+.review{
+	font-family: 'Roboto', sans-serif;
+	line-height: inherit;
+	color: #121212;
+	
+}
+#profile{
+	
+	
+}
+
+#name{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+#roll{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+
+#command2{
+	border: 2px solid #7B7B7B;
+	
+}
+#profile2{
+	
+}
+
+#name2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	
+	
+	
+}
+#roll2{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#command3{
+	border: 2px solid #7B7B7B;
+	border-radius: 10px;
+}
+
+
+
+#name3{
+	font-family: 'Roboto', sans-serif;
+}
+#roll3{
+	font-family: 'Roboto', sans-serif;
+}
+#reviwname{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+#reviwrate{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+#user{
+	font-family: 'Roboto', sans-serif;
+	color: #7A7A7A;
+}
+
+.nametab{
+	font-family: 'Roboto', sans-serif;
+	color: #5E64FE;
+}
+.rolltab{
+	font-family: 'Roboto', sans-serif;
+	color: #070707;
+}
+
+.allreview{
+	font-family: 'Roboto', sans-serif;
+	color: #7A7A7A;
+}
+.date{
+	font-family: 'Roboto', sans-serif;
+	color: #7A7A7A;
+}
+#morereview{
+	font-family: roboto;
+	text-decoration: none;
+	
+}
+#morerev a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#getnow{
+	
+}
+#getnowempty{
+	
+}
+#getnowbackground{
+	background: #6F70FD;
+}
+#getnowhed{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+#getnowcont{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#footer{
+	background: #1F222E;
+	color: white
+}
+
+.footerhed{
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 400;
+}
+#address a{
+	text-decoration: none;
+	color: white;
+	font-family: roboto;
+	font-weight: 300;
+}
+#addressmobile{
+/*	color: white;*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+#row2 li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	
+}
+#row2 ul{
+	list-style-type: none;
+}
+
+#row3 li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	
+}
+#row3 ul{
+	list-style-type: none;
+}
+#copyrights{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;	
+	
+}
+#copyrights a{
+	text-decoration: none;
+	color: #B69DF8;
+}
+#copyrights span {
+	color: #B69DF8;
+}
+#copyrightsmobile{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;	
+	
+}
+#copyrightsmobile a{
+	text-decoration: none;
+	color: #B69DF8;
+}
+#copyrightsmobile span {
+	color: #B69DF8;
+}

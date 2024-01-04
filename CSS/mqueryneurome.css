@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+/*@import url("Neurome-desktop.css") only screen and (min-width:769px );*/
+
+@import url("Neurome-tap.css") only screen and (min-width:481px );
+
+@import url("Neurome-mobile.css") only screen and (max-width:480px);
+
+@import url( "Neurome-desktop2.css") only screen and (min-width:769px);
+
